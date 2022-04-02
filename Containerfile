@@ -1,6 +1,7 @@
 FROM fedora:35
 
 RUN dnf install -y \
+    gettext \
     git \
     python3-lxml \
     itstool \
